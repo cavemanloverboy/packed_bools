@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "packed_bools",
+    "packed_bools_tests",
+]
+

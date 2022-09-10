@@ -1,0 +1,18 @@
+[package]
+name = "packed_bools"
+version = "0.1.0"
+authors = ["Cavey Cool <caveycool@gmail.com>"]
+edition = "2021"
+description = "a lightweight ergonomic bit manipulation library for packing booleans"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/cavemanloverboy/packed_bools"
+keywords = ["bitwise", "unaligned", "misaligned", "booleans", "bits"]
+categories = ["embedded", "no-std", "data-structures", "memory-management", "encoding"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "1.0"
+quote = "1.0"
+proc-macro2 = "1.0"
