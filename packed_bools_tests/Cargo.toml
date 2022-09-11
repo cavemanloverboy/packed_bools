@@ -8,3 +8,6 @@ edition = "2021"
 
 [dependencies]
 packed_bools = { path = "../packed_bools" }
+
+[dev-dependencies]
+anchor-lang = "0.25.0"
